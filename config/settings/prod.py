@@ -3,7 +3,7 @@ from .base import *
 # TODO definir uma chave secreta de desenvolvimento
 SECRET_KEY = 'not_secret_key_production'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS += [
     "*",
